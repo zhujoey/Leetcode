@@ -1,4 +1,4 @@
-//using erase and placing the 0s at the back
+//using erase and placing the 0s at the back, actually works
 #include <vector>
 
 class Solution
