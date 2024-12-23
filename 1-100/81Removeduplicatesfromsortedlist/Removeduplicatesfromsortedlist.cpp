@@ -1,5 +1,3 @@
-#include <vector>
-
 struct ListNode
 {
     int val;
