@@ -38,6 +38,9 @@ public:
             temp2 = temp2->next->next;
             head = head->next;
         }
+
+        //O(n/2)
+
         return answer;
     }
 };
