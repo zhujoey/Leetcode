@@ -10,6 +10,7 @@ struct ListNode
 class Solution
 {
 public:
+    // Complexity: O(n)
     ListNode* swapPairs(ListNode* head)
     {
         if (head == nullptr || head->next == nullptr)
@@ -38,8 +39,6 @@ public:
             temp2 = temp2->next->next;
             head = head->next;
         }
-
-        //O(n/2)
 
         return answer;
     }
