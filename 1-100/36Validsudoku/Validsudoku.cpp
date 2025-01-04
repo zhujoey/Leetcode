@@ -4,6 +4,8 @@
 class Solution
 {
 public:
+
+    // Total Complexity(O(NlogN))
     bool isValidSudoku(const std::vector<std::vector<char>>& board)
     {
         for (int x = 0; x < 9; ++x)
@@ -58,6 +60,7 @@ public:
         return true;
     }
     
+    // Complexity: O(NlogN)
     bool checkValidLine(std::vector<char> line)
     {
         std::sort(line.begin(), line.end());
