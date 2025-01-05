@@ -13,6 +13,8 @@ struct TreeNode
 class Solution
 {
 public:
+
+    // Complexity: O(N^2)
     int sumNumbers(TreeNode* root)
     {
         std::vector<int> nums = makeNumbers(root, 0);
